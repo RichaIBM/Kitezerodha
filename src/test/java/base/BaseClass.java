@@ -21,5 +21,6 @@ public class BaseClass {
 				
 				//Global wait.
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
+				System.out.println("Richa");
 	}
 }
